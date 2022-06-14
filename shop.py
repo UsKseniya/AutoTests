@@ -16,7 +16,7 @@ title_get_text = title.text
 assert title_get_text == "HTML5 Forms"
 driver.quit()
 
-КОЛИЧЕСТВО ТОВАРОВ В КАТЕГОРИИ
+#КОЛИЧЕСТВО ТОВАРОВ В КАТЕГОРИИ
 import time
 from selenium import webdriver
 
@@ -120,7 +120,7 @@ close = WebDriverWait(driver,10).until(
 close.click()
 driver.quit()
 
-ПРОВЕРКА ЦЕНЫ В КОРЗИНЕ
+#ПРОВЕРКА ЦЕНЫ В КОРЗИНЕ
 import time
 from selenium import webdriver
 from selenium.webdriver.common.by import By
